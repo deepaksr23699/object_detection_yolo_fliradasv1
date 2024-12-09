@@ -1,0 +1,13 @@
+
+# Paths to the training and validation datasets
+train: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/train/thermal8bitwithlabels/images
+val: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/val/thermal8bitwithlabels/images
+
+# Optional: Path to the test dataset (if you have one)
+test: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/video/thermal8bitwithlabels/images
+
+# Number of classes
+nc: 4
+
+# Class names
+names: ['person', 'bicycle', 'car', 'dog']

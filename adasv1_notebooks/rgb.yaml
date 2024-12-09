@@ -1,0 +1,13 @@
+
+# Paths to the training and validation datasets
+train: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/train/rgbwithlabels/images
+val: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/val/rgbwithlabels/images
+
+# Optional: Path to the test dataset (if you have one)
+test: /home/deepaksr/project/project_assignment2/adas_v1/FLIR_ADAS_1_3/video/rgbwithlabels/images
+
+# Number of classes
+nc: 4
+
+# Class names
+names: ['person', 'bicycle', 'car', 'dog']
